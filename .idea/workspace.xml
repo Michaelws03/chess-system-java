@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d091a35-ffb1-4425-9f2f-bb0fab8436b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boardgame/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boardgame/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boardgame/Piece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
     </list>
@@ -67,10 +67,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1582060532091">
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1582062155085">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582060532091" />
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582062155085" />
     <state width="1323" height="99" key="GridCell.Tab.0.bottom" timestamp="1582061078472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
