@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d091a35-ffb1-4425-9f2f-bb0fab8436b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/boardgame/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boardgame/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chess/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boardgame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boardgame/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Position.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +29,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XzkoouSfeXLBQahRVN3K58kXkl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -67,26 +75,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1582062155085">
+    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1582122543085">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582062155085" />
-    <state width="1323" height="99" key="GridCell.Tab.0.bottom" timestamp="1582061078472">
+    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582122543085" />
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1582120236454">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="99" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582061078472" />
-    <state width="1323" height="99" key="GridCell.Tab.0.center" timestamp="1582061078472">
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582120236454" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1582125548598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="99" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582061078472" />
-    <state width="1323" height="99" key="GridCell.Tab.0.left" timestamp="1582061078472">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582125548598" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1582125548598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="99" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582061078472" />
-    <state width="1323" height="99" key="GridCell.Tab.0.right" timestamp="1582061078472">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582125548598" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1582125548598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="99" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582061078472" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582125548598" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1582125548598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582125548598" />
+    <state x="440" y="75" key="RollbackChangesDialog" timestamp="1582120155843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="75" key="RollbackChangesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582120155843" />
     <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582056507321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
